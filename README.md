@@ -19,22 +19,22 @@
 ### 實作畫面
 初始畫面如下：
 
-![image]()
+![image](https://github.com/SunGj921028/xml-generator/blob/main/img/fig1.png)
 
 - 使用左邊上傳，結果如下：
 
-![image]()
+![image](https://github.com/SunGj921028/xml-generator/blob/main/img/fig2.png)
 
 - 產生的 xml 檔案如下：
 
-![image]()
+![image](https://github.com/SunGj921028/xml-generator/blob/main/img/fig3.png)
 
 - 使用右邊上傳，結果如下：
 
-![image]()
+![image](https://github.com/SunGj921028/xml-generator/blob/main/img/fig4.png)
 
 - 產生的 xml 檔案如下：
 
-![image]()
+![image](https://github.com/SunGj921028/xml-generator/blob/main/img/fig5.png)
 
 
