@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+  <record id="1">
+    <field1>0001</field1>
+    <field2>微積分</field2>
+    <field3>參考書</field3>
+    <field4>王大明</field4>
+    <field5>350</field5>
+  </record>
+  <record id="2">
+    <field1>0002</field1>
+    <field2>流浪狗太郎的故事</field2>
+    <field3>小說</field3>
+    <field4>遠藤初江</field4>
+    <field5>200</field5>
+  </record>
+  <record id="3">
+    <field1>0003</field1>
+    <field2>線性代數</field2>
+    <field3>教科書</field3>
+    <field4>李四</field4>
+    <field5>400</field5>
+  </record>
+</data>

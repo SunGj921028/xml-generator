@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML File Generator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/func.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>XML File Generator</h1>
+        <div class="upload-forms">
+            <!-- First form -->
+            <form id="uploadForm">
+                <label for="txtFile">Upload a TXT or CSV file and generate tag from your file:</label>
+                <input type="file" id="txtFile" name="txtFile" accept=".txt, .csv" required>
+                <label for="delimiter">Enter Delimiter (for TXT files, e.g., "," or "，"):</label>
+                <input type="text" id="delimiter" name="delimiter" placeholder="Default: ，" maxlength="5">
+                <button type="button" id="generateBtn1">Generate XML</button>
+            </form>
+
+            <!-- Second form -->
+            <form id="uploadForm2">
+                <label for="txtFile2">Upload TXT or CSV file and generate tag given by program:</label>
+                <input type="file" id="txtFile2" name="txtFile2" accept=".txt, .csv" required>
+                <label for="delimiter2">Enter Delimiter (for TXT files, e.g., "," or "，"):</label>
+                <input type="text" id="delimiter2" name="delimiter2" placeholder="Default: ，" maxlength="5">
+                <button type="button" id="generateBtn2">Generate XML</button>
+            </form>
+        </div>
+
+        <div id="xmlOutput" class="output">
+            <h3>Generated XML:</h3>
+            <pre id="xmlContent"></pre>
+        </div>
+    </div>
+</body>
+</html>

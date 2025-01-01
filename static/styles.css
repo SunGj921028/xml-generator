@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 1000px; /* Increased max width for better spacing */
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="file"], input[type="text"] {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Flex container for the two forms */
+.upload-forms {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Make the forms wrap on small screens */
+}
+
+form {
+    flex: 1; /* Forms take equal space */
+    min-width: 280px; /* Ensures forms don’t become too small on narrow screens */
+}
+
+/* Output Section */
+.output {
+    margin-top: 20px;   /* Keep some space from the above content */
+    margin-bottom: 10px; /* Reduced bottom margin to bring it closer to the next content */
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the download link */
+#xmlOutput a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#xmlOutput a:hover {
+    background-color: #45a049;
+}
+
+#xmlOutput a:focus {
+    outline: none;
+    border: 2px solid #45a049;
+}
+
+/* XML Content Styling */
+pre#xmlContent {
+    background-color: #f4f9ff;
+    padding: 15px;
+    border: 1px solid #d1e7fd;
+    border-radius: 8px;
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
